@@ -1,6 +1,6 @@
 ggBrain
 ========
-[![Build Status](https://travis-ci.org/aaronjfisher/ggBrain.png?branch=master)](https://travis-ci.org/aaronjfisher/ggBrain)
+[![Build Status](https://travis-ci.org/ttriche/ggBrain.png?branch=master)](https://travis-ci.org/ttriche/ggBrain)
 
 An R package of simple helper functions for creating brain image figures with ggplot. The primary workhorse function is `ggBrain`, which is documented in the vignette. Some of the images generated in the vignette are shown below.
 
@@ -12,7 +12,7 @@ install.packages("devtools")
 
 ## main package
 library(devtools)
-install_github('ggBrain','aaronjfisher',build_vignettes=TRUE)
+install_github('ttriche/ggBrain',build_vignettes=TRUE)
 
 ## to access help pages
 library(ggBrain)

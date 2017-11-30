@@ -1,13 +1,14 @@
 Package: ggBrain
 Title: ggplot Brain Images
 Description: Plotting brain images with ggplot
-Version: 0.1
+Version: 0.1.1
 Author: Aaron Fisher <fisher@jhu.edu>
 Maintainer: Aaron Fisher <fisher@jhu.edu>
 VignetteBuilder: knitr
 Depends:
     R (>= 3.0.2)
 Imports:
+    brainR,
     ggplot2,
     RColorBrewer
 Suggests:
@@ -17,3 +18,4 @@ Suggests:
     oro.nifti
 License: GPL-2
 LazyData: true
+RoxygenNote: 6.0.1
